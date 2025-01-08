@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        select{
+            font-size: 20px;
+            padding: 12px;
+        }
+        h1{
+            margin-bottom: 40px;
+        }
+        body{
+            text-align: center;
+            margin: 60px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Changing Background Color in JavaScript</h1>
+    <select id="colors">
+        <option value="">Select color </option>
+        <option value="lightcoral">Light Coral </option>
+        <option value="lavender">Lavender </option>
+        <option value="pink"> Hottest Pink </option>
+        <option value="yellow"> Gamboge</option>
+        <option value="lightgreen"> Light Green </option>
+    </select>
+    <script>
+        let color = document.getElementById("colors");
+        color.addEventListener("change", function(){
+            document.body.style.backgroundColor = this.value;
+        });
+    </script>
+</body>
+</html>
