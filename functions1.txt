@@ -1,0 +1,69 @@
+<script>
+     functions :
+     function add(a, b){
+         return a + b;
+     }
+     document.write(add(32,43));
+    function add(a, b){
+        var c = a + b;
+     return c;
+     }
+     document.write(add(21,45));
+
+     function add(a, b){
+        var c = a + b;
+        document.write(c);
+     }
+     add (21,21);
+
+
+    function add(a, b){
+        document.write(a + b);
+    }
+    function sub(a, b){
+        document.write(a - b);
+    }
+    function divide(a, b){
+        document.write(a / b);
+    }
+    function multiply(a, b){
+        document.write(a * b);
+    }
+    var a = Number(prompt("Enter a number"));
+    var b = Number(prompt("Enter a number"));
+    var choice = Number(prompt("Enter a choice"));
+    switch(choice){
+        case 1: add(a, b);
+        break;
+        case 2: sub(a, b);
+        break;
+        case 3: divide(a, b);
+        break;
+        case 4: multiply(a, b);
+        break;
+        default:
+            document.write("enter valid choice");
+    }
+
+
+    var a = Number(prompt("Enter a Number"));
+    var choice = Number(prompt("Enter a choice"));
+    switch(choice)
+{
+    case 1: Math.abs(a);
+    break;
+    case 2: Math.floor(a);
+    break;
+    case 3: Math.ceil(a);
+    break;
+    default:
+        document.write("enter valid choice");
+}
+
+
+var a = parseInt(prompt("Enter a number"));
+var a = parseFloat(prompt("Enter a number"));
+document.write(Math.floor(a));
+
+// switch case condition for square root cube root (HW)
+</script> 

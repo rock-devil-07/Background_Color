@@ -1,0 +1,55 @@
+<script>
+    // functions : Block of code used for code reusability.
+    // Types of Functions : 
+    // 1. Normal function using keyword
+    // 2. Constructor function
+    //   export function add(a,b){
+    //     var c = a + b;
+    //     document.write("addition = ", c);
+    // }
+    // add(45, 25);
+    // Constructor Function
+    // const add = (a,b) => {
+    //     var c = a + b;
+    //     document.write("addition =", c);
+    // }
+    // add(22,53);
+
+
+
+    
+</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        window.onload = function(){
+        document.getElementById("mobile").addEventListener("submit", function(event){
+            event.preventDefault();
+            let mobileinput = document.getElementById("Num").value;
+            let error_message = document.getElementById("error_message");
+            let pattern = /^[6-9]\d{9}$/;
+            if(pattern.test(mobileinput)){
+                alert("valid mobile number");
+            
+            }
+            else 
+            alert("valid mobile number");
+            
+        })
+    }
+    </script>
+</head>
+<body>
+    <form id = "mobile">
+        <label for="mobile_number">Enter Mobile Number</label>
+        <input type="text" id="Num" name = "num" maxlength = "10" required>
+        <span id = "error_message"></span><br>
+        <button type="submit">Validate</button>
+    </form>
+
+</body>
+</html>

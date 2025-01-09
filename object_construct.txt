@@ -1,0 +1,12 @@
+<script>
+    // object constructor function in which the values can be passed afterwards in the objects.
+    function Car(year, brand, color, type, engine_model){
+        this.year = year;
+        this.brand = brand;
+        this.color = color;
+        this.engine_model = engine_model;// key value format
+        this.type = type;
+    }
+    let obj1 = new Car("2017", "Seltos", "Orange", "Kappa 1.2", "SUV");
+    document.write(obj1.year + obj1.brand + obj1.color);
+</script>

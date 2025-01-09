@@ -1,0 +1,26 @@
+<script>
+    // objects : It holds values in format of dictionary and key value
+    // let car = {Brand : "KIA", Year : "2017", color : "White"};
+    // document.write(car.Brand);
+    // let car = {};
+    // car.Brand = "Hyundai";
+    // car.year = "2020";
+    // car.model = "Creta";
+    // document.write(car.Brand, car.year, car.model);
+
+    // let car = new Object();
+    // car.Brand = "Hyundai";
+    // car.year = "2020";
+    // car.model = "Creta";
+    // document.write(car.Brand, car.year, car.model);
+
+    // let car = {
+    // Brand : "Hyundai",
+    // year : "2020",
+    // model : "Creta",
+    // info : function(){ // object function
+    // return this.Brand + this.year + this.model ; // inside object function we should not use comma use + symbol
+    // }
+    // }
+    // document.write(car.info());
+</script>

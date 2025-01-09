@@ -1,0 +1,52 @@
+<!-- <h1 id = "heading"> Hey My name is :</h1>
+<button onclick = "change()"> click </button>
+<script>
+    // DOM : Document object model
+    // document.write("This is a content");
+    // document.getElementById("heading").innerHTML = "Nithish Kumar Reddy";
+    function change(){
+        document.getElementById("heading").innerHTML = "Nithish Kumar Reddy";
+    }
+    
+</script> -->
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Change Background Color</title>
+</head>
+<body>
+    <a href="#" id="myLink">Click me</a>
+
+    <script>
+        // Select the <a> tag by its ID
+        const link = document.getElementById('myLink');
+
+        // Change the background color
+        link.style.backgroundColor = 'yellow';
+    </script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Change Background Color</title>
+</head>
+<body>
+    <a href="#" id="myLink">Click me</a>
+
+    <script>
+        // Select the <a> tag by its ID
+        const link = document.getElementById('myLink');
+
+        // Add an event listener to change the background color of the page
+        link.addEventListener('click', function (one) {
+            one.preventDefault(); // Prevent the default link behavior
+            document.body.style.backgroundColor = 'yellow'; // Change the page's background color
+        });
+    </script>
+</body>
+</html>
+
+

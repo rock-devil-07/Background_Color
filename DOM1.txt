@@ -1,0 +1,11 @@
+<h1 id = "heading"> Hey My name is :</h1>
+<button onclick = "change()"> click </button>
+<script>
+    // DOM : Document object model
+    // document.write("This is a content");
+    // document.getElementById("heading").innerHTML = "Nithish Kumar Reddy";
+    function change(){
+        document.getElementById("heading").innerHTML = "Nithish Kumar Reddy";
+    }
+    
+</script>

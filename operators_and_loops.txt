@@ -1,0 +1,51 @@
+<script>
+    // Operators : operators are the one where we are performing operations on operators.
+    // Types of operators :
+    // Arithmetic operator : +, - ,* , / , % , **
+    // logical operator : && , || , !
+    // bitwise operator : >> , <<
+    // assignment operator : = (right to left)
+    // comparision operator : == , != 
+    // relational operator : < , > , <= , >=
+    // equivalent operator : === (checks the value and the data type), !== 
+
+
+    // conditional Statements: 
+    // If Statement :
+    // var a = Number(prompt("Enter your age"));
+    // if (a >= 18)
+    // document.write("major");
+    // else
+    // document.write("minor"); 
+
+    // home work (why do we use brackets in If) and perfect number
+    // terinary operator
+    //  var a = Number(prompt("Enter your age"));
+    //  let ans = (a >= 18)? "major": "minor";
+    //  document.write(ans)
+
+    // Else If ladder
+    // var a = Number(prompt("Enter a number"));
+    // if (a > 0)
+    // console.log("positive");
+    // else if(a < 0) 
+    // console.log("Negative");
+    // else
+    // console.log("0");
+    //Time Complexity : Time taken to complete the operation
+
+    // var a = Number(prompt("Enter a number"));
+    // if (a > 0)
+    // console.log("positive");
+    // if(a < 0) 
+    // console.log("Negative");
+    // if(a == 0)
+    // console.log("0");
+    //to avoid time complexity we usse nested if
+
+    // Loops in JavaScript : loops are used for iterating the statements
+    // For Loop : three types : forlet and forof
+    // While Loop : The loop checks the condition at the beginning.
+    // Do while Loop : The loop checks the condition at the end
+    // Foreach Loop 
+</script>

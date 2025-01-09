@@ -1,0 +1,21 @@
+<script>
+    // functions : Block of code used for code reusability.
+    // Types of Functions : 
+    // 1. Normal function using keyword
+    // 2. Constructor function
+    //   export function add(a,b){
+    //     var c = a + b;
+    //     document.write("addition = ", c);
+    // }
+    // add(45, 25);
+    // Constructor Function
+    // const add = (a,b) => {
+    //     var c = a + b;
+    //     document.write("addition =", c);
+    // }
+    // add(22,53);
+
+
+
+    
+</script>

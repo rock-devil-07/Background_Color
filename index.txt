@@ -10,8 +10,7 @@
             padding: 12px;
         }
         h1{
-            margin-top: 100px;
-            color: red;
+            margin-bottom: 40px;
         }
         body{
             text-align: center;
@@ -22,15 +21,12 @@
 <body>
     <h1>Changing Background Color in JavaScript</h1>
     <select id="colors">
-        <option value="black">Black </option>
-        <option value="brown">Brown </option>
-        <option value="crimson">Crimson </option>
-        <option value="darkgrey"> Darkgrey </option>
-        <option value="greenyellow"> GreenYellow</option>
-        <option value="magenta"> Magenta </option>
-        <option value="olive"> Olive </option>
-        <option value="wheat"> Wheat </option>
-        <option value="tomato"> Tomato </option>
+        <option value="aqua">Aqua </option>
+        <option value="lightcoral">Light Coral </option>
+        <option value="lavender">Lavender </option>
+        <option value="pink"> Hottest Pink </option>
+        <option value="yellow"> Gamboge</option>
+        <option value="lightgreen"> Light Green </option>
     </select>
     <script>
         let color = document.getElementById("colors");

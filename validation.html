@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Number Validation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .error {
+            color: red;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <h2>Mobile Number Validation</h2>
+    <form id="mobileForm">
+        <label for="mobileNumber">Enter Mobile Number:</label><br>
+        <input type="text" id="mobileNumber" name="mobileNumber" maxlength="10" required>
+        <span id="errorMessage" class="error"></span><br><br>
+        <button type="submit">Validate</button>
+    </form>
+
+    <script>
+        document.getElementById("mobileForm").addEventListener("submit", function (event) {
+            event.preventDefault(); // Prevent form submission
+
+            const mobileInput = document.getElementById("mobileNumber").value;
+            const errorMessage = document.getElementById("errorMessage");
+            const mobilePattern = /^[6-9]\d{9}$/;
+
+            if (mobilePattern.test(mobileInput)) {
+                alert("Mobile number is valid!");
+                errorMessage.textContent = ""; // Clear error message
+            } else {
+                errorMessage.textContent = "Invalid mobile number. It must start with 6, 7, 8, or 9 and be 10 digits long.";
+            }
+        });
+    </script>
+</body>
+</html>
+

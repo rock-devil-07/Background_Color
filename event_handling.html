@@ -1,0 +1,20 @@
+<script>
+// any action performed on any event done by the user. This can be recognised as an event.
+// onclick() : It recognise mouse functions and keyboard functions
+// onmouseover() : It only recognise mouse functions.
+// onload() : It is an event which is used to identify when user entering or leaving the page
+// oninput() : It is used to recognise what the user is entering in the web page.
+function hello(){
+    console.log("hello...! there...!");
+
+}
+function capital(){
+    let a = document.getElementById("star");
+    a.value = a.value.toUpperCase();
+
+}
+</script>
+<!-- <button onclick = "hello()"> click me </button> -->
+<!-- <button onmouseover = "hello()"> click me </button> -->
+<!-- oninput -->
+ <input type="text" id = "star" oninput = "capital()"> 

@@ -1,0 +1,16 @@
+<script>
+    //  Array : storing of homogeneous data type in a continuous memory location
+    // continous memory allocation : 
+    The array elements are stored back-to-back in memory without gaps.
+If the base address of the array is 1000 (the memory address of the first element), and the size of each element is 4 bytes (for example, an int), the memory layout will look like:
+Element 1: Address 1000
+Element 2: Address 1004 (1000 + 4)
+Element 3: Address 1008 (1004 + 4), and so on
+    // let ar = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+    // document.write(ar);
+     let ar = new Array (0, 1, 2, 3, 4, 5, 6, 7, 8, 9);
+     let x = ar.at(3);
+     document.write(x);
+    // document.write(ar);
+
+</script>
